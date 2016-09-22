@@ -1,0 +1,69 @@
+# All directories should end in / (information used by ide.gradle)
+
+build/tmp/
+build/resources/
+build/classes/
+build/dependency-cache/
+# /*/*/build/
+
+# Maven
+target/
+*.class
+
+#Gradle
+/.gradle
+.gradle
+.nb-gradle
+
+# Eclipse project files
+*.classpath
+*.project
+*.settings
+/bin
+
+
+# Netbeans
+nbproject/
+/nbproject/private/ 
+nb-build.xml
+profiles.xml
+nbproject
+/nbbuild/
+
+
+# Intellij iDEA
+/.idea
+.idea
+out/
+logs/
+/*.iml
+/*.ipr
+/*.iws
+.*.swp
+/*/out
+/*/*/production
+
+
+# other
+.refactorings/
+.codepro/
+.externalToolBuilders/
+notused/
+ipds.jdproj
+/dist/
+
+manifest.mf
+
+/build/test-results/binary
+hs_err_pid2152.log
+
+
+# Windows
+Thumbs.db
+
+# Mac
+.DS_Store
+
+# Temporary Files
+*~
+/build/

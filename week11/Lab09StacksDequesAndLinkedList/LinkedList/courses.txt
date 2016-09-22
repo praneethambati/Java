@@ -1,0 +1,24 @@
+44141
+Computer Programming I
+3
+44296
+Professional Development Seminar
+3
+44241
+Computer Programming II
+3
+44242
+Data Structures
+3
+44542
+Object-OrientedProgramming
+3
+44525
+Theory & Implementation of Programming Languages
+3
+44543
+Mobile Computing
+3
+17120
+Calculus I
+4

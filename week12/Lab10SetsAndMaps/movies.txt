@@ -1,0 +1,84 @@
+Nandamuri
+Taraka Rama Rao
+Temper
+Puri Jaganadh
+35.5
+149
+Bandla Ganesh
+Daggubati
+Venkatesh
+Drushyam
+Sripriya
+15.0
+150
+Daggubati Suresh Babu, Rajkumar Sethupathi
+Daggubati
+Venkatesh
+Gopala Gopala
+Kishore Kumar Pardasany
+40.5
+160
+Daggubati Suresh Babu, Sharrath Marar
+Nandamuri
+Taraka Rama Rao
+Adhurs
+V.V.Vinayak
+25.0
+150
+Vallabhaneni Vamshi Mohan
+Ghattamaneni
+Mahesh Babu
+Srimanthudu
+Koratala Siva
+50.0
+160
+Y. Naveen, Y. Ravi Shankar, C. V. Mohan, Mahesh Babu
+Reddy
+Nitin
+Ishq
+Vikram Kumar
+10.8
+121
+Sudhakar Reddy, Vikram Goud
+Nandamuri
+Balakrishna
+Legend
+Boyapati Seenu
+35.0
+150
+Sai Korapati
+Subramani
+Ajith Kumar
+Vedalam
+Siva
+50.5
+160
+A. M. Rathnam
+Nandamuri
+Balakrishna
+Simha
+Boyapati Seenu
+40.0
+140
+Paruchuri Keeriti
+Uppalapati
+Prabhas Raju
+Baahubali: The Beginning
+S.S.Rajamouli
+250.0
+155
+Shobu Yarlagadda, Prasad Devineni
+Uppalapati
+Prabhas Raju
+Mirchi
+Koratala Siva
+30.0
+140
+V. Vamsi Krishna Reddy, Pramod Uppalapati
+Uppalapati
+Prabhas Raju
+Mr. Perfect
+Dasaradh
+25.0
+150
+Dil Raju

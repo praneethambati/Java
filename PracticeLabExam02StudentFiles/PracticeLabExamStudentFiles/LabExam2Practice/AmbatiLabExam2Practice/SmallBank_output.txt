@@ -1,0 +1,132 @@
+run:
+What is the name of the test script file? (ex: SmallBank.txt)
+smallbank.txt
+Testing Bank:Constructor
+EXPECTED: 
+RESULT:   Created Bank Bank{waiters=[], 
+	accounts={}, 
+	served=0, totalWaitTime=0}
+
+Testing Bank:addToLine Laverne 15
+EXPECTED: should add Laverne to the back of the line with value 15
+RESULT:   Bank{waiters=[Customer{name=Laverne, transactionValue=15, wait=0}], 
+	accounts={}, 
+	served=0, totalWaitTime=0}
+
+Testing Bank:addToLine Shirley 25
+EXPECTED: should add Shirley to the back of the line with value 25
+RESULT:   Bank{waiters=[Customer{name=Laverne, transactionValue=15, wait=0}, Customer{name=Shirley, transactionValue=25, wait=0}], 
+	accounts={}, 
+	served=0, totalWaitTime=0}
+
+Testing Bank:addToLine Chachi -10
+EXPECTED: should add Chachi to the back of the line with value -10
+RESULT:   Bank{waiters=[Customer{name=Laverne, transactionValue=15, wait=0}, Customer{name=Shirley, transactionValue=25, wait=0}, Customer{name=Chachi, transactionValue=-10, wait=0}], 
+	accounts={}, 
+	served=0, totalWaitTime=0}
+
+Testing Bank:serve
+EXPECTED: should remove Laverne from the line and create a map from Laverne to 15; numberServed is now 1
+RESULT:   Serve returned Served customer: Customer{name=Laverne, transactionValue=15, wait=0}
+	Bank{waiters=[Customer{name=Shirley, transactionValue=25, wait=0}, Customer{name=Chachi, transactionValue=-10, wait=0}], 
+	accounts={Laverne=15}, 
+	served=1, totalWaitTime=0}
+
+Testing Bank:serve
+EXPECTED: should remove Shirley from the line and create a map from Shirley to 25; numberServed is now 2
+RESULT:   Serve returned Served customer: Customer{name=Shirley, transactionValue=25, wait=0}
+	Bank{waiters=[Customer{name=Chachi, transactionValue=-10, wait=0}], 
+	accounts={Shirley=25, Laverne=15}, 
+	served=2, totalWaitTime=0}
+
+Testing Bank:addToLine Joanie 17
+EXPECTED: should add Joanie to the back of the line with value 17
+RESULT:   Bank{waiters=[Customer{name=Chachi, transactionValue=-10, wait=0}, Customer{name=Joanie, transactionValue=17, wait=0}], 
+	accounts={Shirley=25, Laverne=15}, 
+	served=2, totalWaitTime=0}
+
+Testing Bank:bumpTime
+EXPECTED: should make the wait time for Chachi and Joanie increase to 1
+RESULT:   Bank{waiters=[Customer{name=Chachi, transactionValue=-10, wait=1}, Customer{name=Joanie, transactionValue=17, wait=1}], 
+	accounts={Shirley=25, Laverne=15}, 
+	served=2, totalWaitTime=0}
+
+Testing Bank:serve
+EXPECTED: should remove Chachi from the line and create a map from Chachi to -10; numberServed is now 3 and total wait is 1
+RESULT:   Serve returned Served customer: Customer{name=Chachi, transactionValue=-10, wait=1}
+	Bank{waiters=[Customer{name=Joanie, transactionValue=17, wait=1}], 
+	accounts={Chachi=-10, Shirley=25, Laverne=15}, 
+	served=3, totalWaitTime=1}
+
+Testing Bank:averageWait
+EXPECTED: should be 0.33333333
+RESULT:   The average is 0.3333333333333333
+
+Testing Bank:bumpTime
+EXPECTED: should make the wait time for Joanie increase to 2
+RESULT:   Bank{waiters=[Customer{name=Joanie, transactionValue=17, wait=2}], 
+	accounts={Chachi=-10, Shirley=25, Laverne=15}, 
+	served=3, totalWaitTime=1}
+
+Testing Bank:addToLine Chachi 9
+EXPECTED: should add Chachi to the back of the line with value 9;
+RESULT:   Bank{waiters=[Customer{name=Joanie, transactionValue=17, wait=2}, Customer{name=Chachi, transactionValue=9, wait=0}], 
+	accounts={Chachi=-10, Shirley=25, Laverne=15}, 
+	served=3, totalWaitTime=1}
+
+Testing Bank:bumpTime
+EXPECTED: should make the wait times for Joanie and Chachi increase to 3 and 1
+RESULT:   Bank{waiters=[Customer{name=Joanie, transactionValue=17, wait=3}, Customer{name=Chachi, transactionValue=9, wait=1}], 
+	accounts={Chachi=-10, Shirley=25, Laverne=15}, 
+	served=3, totalWaitTime=1}
+
+Testing Bank:serve
+EXPECTED: should remove Joanie from the line and create a map from Joanie to 17; numberServed is now 4 and total wait is 4
+RESULT:   Serve returned Served customer: Customer{name=Joanie, transactionValue=17, wait=3}
+	Bank{waiters=[Customer{name=Chachi, transactionValue=9, wait=1}], 
+	accounts={Chachi=-10, Shirley=25, Laverne=15, Joanie=17}, 
+	served=4, totalWaitTime=4}
+
+Testing Bank:bumpTime
+EXPECTED: should make the wait time for Chachi increase to 2
+RESULT:   Bank{waiters=[Customer{name=Chachi, transactionValue=9, wait=2}], 
+	accounts={Chachi=-10, Shirley=25, Laverne=15, Joanie=17}, 
+	served=4, totalWaitTime=4}
+
+Testing Bank:serve
+EXPECTED: should remove Chachi from the line and update the map from Chachi to -1; numberServed is now 5 and total wait is 6
+RESULT:   Serve returned Served customer: Customer{name=Chachi, transactionValue=9, wait=2}
+	Bank{waiters=[], 
+	accounts={Chachi=-1, Shirley=25, Laverne=15, Joanie=17}, 
+	served=5, totalWaitTime=6}
+
+Testing Bank:serve
+EXPECTED: should return the string "No one waiting" and the state of the Bank should be unchanged
+RESULT:   Serve returned No one waiting
+	Bank{waiters=[], 
+	accounts={Chachi=-1, Shirley=25, Laverne=15, Joanie=17}, 
+	served=5, totalWaitTime=6}
+
+Testing Bank:averageWait
+EXPECTED: should be 1.2
+RESULT:   The average is 1.2
+
+Testing Bank:customersOver 15
+EXPECTED: should be a list containing Shirley and Joanie (order unknown)
+RESULT:   Customer names returned [Shirley, Joanie]
+
+Testing Bank:customersOver 5
+EXPECTED: should be a list containing Shirley, Joanie and Laverne
+RESULT:   Customer names returned [Shirley, Laverne, Joanie]
+
+Testing Bank:customersOver 30
+EXPECTED: should be an empty list
+RESULT:   Customer names returned []
+
+Testing Bank:addToLine Fonzie 100
+EXPECTED: should add Fonzie to the back of the line with value 100; accounts should be unchanged
+RESULT:   Bank{waiters=[Customer{name=Fonzie, transactionValue=100, wait=0}], 
+	accounts={Chachi=-1, Shirley=25, Laverne=15, Joanie=17}, 
+	served=5, totalWaitTime=6}
+
+BUILD SUCCESSFUL (total time: 7 seconds)

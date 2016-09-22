@@ -1,0 +1,27 @@
+run:
+Testing Customer:Constructor John 10
+EXPECTED: 
+RESULT:   Created customer Customer{name=John, transactionValue=10, wait=0}
+
+Testing Customer:getName
+EXPECTED: Name should be John
+RESULT:   Customer name is John
+
+Testing Customer:getTransactionValue
+EXPECTED: Value should be 10
+RESULT:   Customer transaction value is 10
+
+Ignored:Customer:getWaitTime Wait time should be 0
+Testing Customer:bumpWaitTime
+EXPECTED: Wait time should now be 1
+RESULT:   Customer wait time is 1
+
+Testing Customer:bumpWaitTime
+EXPECTED: Wait time should now be 2
+RESULT:   Customer wait time is 2
+
+Testing Customer:toString
+EXPECTED: The customer should hold the values John, 10 and 2
+RESULT:   Customer toString is  Customer{name=John, transactionValue=10, wait=2}
+
+BUILD SUCCESSFUL (total time: 0 seconds)

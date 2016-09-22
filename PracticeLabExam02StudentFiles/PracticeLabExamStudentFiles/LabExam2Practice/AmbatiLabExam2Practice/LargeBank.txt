@@ -1,0 +1,502 @@
+Bank:Constructor
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:bumpTime **** served and totalWaitTime should both be 0
+Bank:customersOver 93 **** should give an empty list
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:averageWait 
+Bank:serve 
+Bank:customersOver 160
+Bank:addToLine Eve -1
+Bank:serve 
+Bank:addToLine Tammy 14
+Bank:averageWait 
+Bank:addToLine Able 22
+Bank:serve 
+Bank:bumpTime 
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:addToLine Able 12
+Bank:addToLine Tammy -10
+Bank:bumpTime 
+Bank:addToLine Able 14
+Bank:averageWait 
+Bank:addToLine Eve 2
+Bank:serve 
+Bank:bumpTime 
+Bank:customersOver 197
+Bank:addToLine Aaron 3
+Bank:averageWait 
+Bank:addToLine Eve 23
+Bank:addToLine Aaron 17
+Bank:addToLine Eve 25
+Bank:addToLine Aaron 1
+Bank:addToLine Aaron -7
+Bank:addToLine Cain -1
+Bank:addToLine Cain 15
+Bank:bumpTime 
+Bank:addToLine Able 26  **** Waiting: {Tammy,-10,3}, {Able,14,2}, {Eve,2,2}, {Aaron,3,1}, {Eve,23,1}, {Aaron,17,1}, {Eve,25,1}, {Aaron,1,1}, {Aaron,-7,1}, {Cain,-1,1}, {Cain,15,1}, {Able,26,0}
+Bank:serve **** Accounts map Tammy to 4, Eve to -1, Able to 34; Served is 5, totalWaitTime is 5
+Bank:customersOver 140  **** Should be empty
+Bank:addToLine Leon 7
+Bank:serve 
+Bank:serve 
+Bank:customersOver 171
+Bank:bumpTime 
+Bank:serve 
+Bank:bumpTime 
+Bank:serve 
+Bank:addToLine Moses 25
+Bank:serve 
+Bank:serve 
+Bank:customersOver 125
+Bank:serve 
+Bank:bumpTime 
+Bank:addToLine Aaron -4
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:serve **** Waiting should be {Leon,7,3}, {Moses,25,1}, {Aaron,-4,0}; Accounts: Aaron=14, Tammy=4, Eve=49, Able=74, Cain=14 
+Bank:customersOver 198 **** should be empty
+Bank:averageWait **** should be 2.375
+Bank:addToLine Rachel 29
+Bank:serve 
+Bank:serve 
+Bank:addToLine Able -3
+Bank:bumpTime 
+Bank:serve 
+Bank:serve 
+Bank:addToLine Joshua 5
+Bank:bumpTime 
+Bank:serve 
+Bank:customersOver 36  **** should be Eve and Able
+Bank:serve **** waiters should be empty
+Bank:addToLine Tammy -4
+Bank:customersOver 191
+Bank:addToLine Cain 25
+Bank:serve 
+Bank:serve 
+Bank:addToLine Lilith 2
+Bank:addToLine Rachel -6
+Bank:addToLine Able 19
+Bank:serve 
+Bank:averageWait 
+Bank:customersOver 5
+Bank:addToLine Able -2
+Bank:addToLine Eve 23
+Bank:addToLine Eve 13
+Bank:averageWait 
+Bank:addToLine Rachel -4
+Bank:addToLine Eve 20
+Bank:serve 
+Bank:addToLine Lilith 10
+Bank:averageWait 
+Bank:addToLine Cain 2
+Bank:addToLine Tammy 5
+Bank:addToLine Rachel 5
+Bank:bumpTime 
+Bank:addToLine Cain 3
+Bank:addToLine Eve 4
+Bank:addToLine Aaron 0
+Bank:addToLine Moses -7
+Bank:serve 
+Bank:customersOver 116
+Bank:bumpTime 
+Bank:serve 
+Bank:customersOver 128
+Bank:serve 
+Bank:addToLine Lilith 7
+Bank:serve 
+Bank:serve 
+Bank:bumpTime 
+Bank:averageWait 
+Bank:bumpTime 
+Bank:addToLine Rachel -3
+Bank:addToLine Aaron -1
+Bank:averageWait 
+Bank:addToLine Adam 4
+Bank:serve 
+Bank:addToLine Tammy -6
+Bank:bumpTime 
+Bank:serve 
+Bank:serve 
+Bank:addToLine Cain 29
+Bank:addToLine Rachel 3
+Bank:serve 
+Bank:bumpTime 
+Bank:serve 
+Bank:addToLine Moses 15
+Bank:addToLine Cain -2
+Bank:serve 
+Bank:averageWait 
+Bank:customersOver 52
+Bank:customersOver 25
+Bank:bumpTime 
+Bank:addToLine Able -5
+Bank:addToLine Eve 24
+Bank:addToLine Able 29
+Bank:bumpTime 
+Bank:bumpTime 
+Bank:serve 
+Bank:bumpTime 
+Bank:averageWait 
+Bank:addToLine Eve 15
+Bank:customersOver 91
+Bank:addToLine Eve 19
+Bank:averageWait 
+Bank:serve 
+Bank:averageWait 
+Bank:serve 
+Bank:addToLine Tammy 15
+Bank:addToLine Able 2
+Bank:averageWait 
+Bank:serve 
+Bank:serve 
+Bank:bumpTime 
+Bank:serve 
+Bank:averageWait 
+Bank:serve 
+Bank:customersOver 43
+Bank:addToLine Moses 22
+Bank:serve 
+Bank:bumpTime 
+Bank:serve 
+Bank:addToLine Able 17
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:addToLine Moses 4
+Bank:addToLine Cain -10
+Bank:bumpTime 
+Bank:addToLine Leon 28
+Bank:addToLine Aaron 21
+Bank:addToLine Rachel 24
+Bank:addToLine Lilith 13
+Bank:addToLine Leon -2
+Bank:addToLine Rachel 21
+Bank:serve 
+Bank:addToLine Joshua -4
+Bank:addToLine Cain 19
+Bank:addToLine Leon -2
+Bank:addToLine Aaron 20
+Bank:bumpTime 
+Bank:serve 
+Bank:addToLine Tammy 17
+Bank:bumpTime 
+Bank:bumpTime 
+Bank:addToLine Able -1
+Bank:serve 
+Bank:bumpTime 
+Bank:addToLine Lilith -8
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:averageWait 
+Bank:bumpTime 
+Bank:addToLine Eve 13
+Bank:serve 
+Bank:addToLine Tammy -1
+Bank:bumpTime 
+Bank:customersOver 40
+Bank:serve 
+Bank:customersOver 80
+Bank:serve 
+Bank:serve 
+Bank:addToLine Able -8
+Bank:serve 
+Bank:bumpTime 
+Bank:customersOver 135
+Bank:serve 
+Bank:serve 
+Bank:customersOver 170
+Bank:bumpTime 
+Bank:addToLine Rachel 7
+Bank:customersOver 121
+Bank:addToLine Cain 25
+Bank:serve 
+Bank:addToLine Able 10
+Bank:serve 
+Bank:addToLine Joshua 21
+Bank:serve 
+Bank:addToLine Rachel -4
+Bank:serve 
+Bank:addToLine Lilith 22
+Bank:serve 
+Bank:addToLine Cain 12
+Bank:averageWait 
+Bank:addToLine Lilith 2
+Bank:serve 
+Bank:addToLine Rachel 26
+Bank:addToLine Joshua 22
+Bank:serve 
+Bank:bumpTime 
+Bank:addToLine Lilith 5
+Bank:addToLine Lilith 3
+Bank:addToLine Eve -8
+Bank:addToLine Cain -3
+Bank:addToLine Able 22
+Bank:addToLine Adam 24
+Bank:bumpTime 
+Bank:bumpTime 
+Bank:customersOver 73
+Bank:serve 
+Bank:serve 
+Bank:customersOver 138
+Bank:addToLine Adam 25
+Bank:serve 
+Bank:serve 
+Bank:bumpTime 
+Bank:bumpTime 
+Bank:addToLine Able 25
+Bank:bumpTime 
+Bank:addToLine Aaron -2
+Bank:addToLine Cain 6
+Bank:serve 
+Bank:addToLine Leon 25
+Bank:customersOver 4
+Bank:serve 
+Bank:addToLine Eve 18
+Bank:customersOver 53
+Bank:serve 
+Bank:bumpTime 
+Bank:customersOver 93
+Bank:addToLine Leon 15
+Bank:serve 
+Bank:addToLine Tammy 14
+Bank:addToLine Eve 28
+Bank:addToLine Cain 27
+Bank:serve 
+Bank:addToLine Lilith -10
+Bank:serve 
+Bank:averageWait 
+Bank:addToLine Adam 27
+Bank:customersOver 163
+Bank:addToLine Lilith 4
+Bank:addToLine Lilith 22
+Bank:averageWait 
+Bank:bumpTime 
+Bank:serve 
+Bank:addToLine Tammy 14
+Bank:averageWait 
+Bank:serve 
+Bank:addToLine Leon -6
+Bank:bumpTime 
+Bank:addToLine Joshua -5
+Bank:serve 
+Bank:addToLine Leon 9
+Bank:averageWait 
+Bank:addToLine Aaron 19
+Bank:addToLine Leon 26
+Bank:bumpTime 
+Bank:bumpTime 
+Bank:customersOver 122
+Bank:averageWait 
+Bank:customersOver 89
+Bank:addToLine Able 10
+Bank:serve 
+Bank:addToLine Lilith 6
+Bank:serve 
+Bank:addToLine Moses 13
+Bank:customersOver 40
+Bank:customersOver 147
+Bank:serve 
+Bank:serve 
+Bank:customersOver 41
+Bank:averageWait 
+Bank:bumpTime 
+Bank:serve 
+Bank:serve 
+Bank:addToLine Rachel 14
+Bank:addToLine Cain 0
+Bank:addToLine Able 26
+Bank:addToLine Lilith 23
+Bank:serve 
+Bank:customersOver 15
+Bank:bumpTime 
+Bank:bumpTime 
+Bank:customersOver 33
+Bank:bumpTime 
+Bank:addToLine Lilith -2
+Bank:serve 
+Bank:addToLine Lilith 2
+Bank:addToLine Lilith 10
+Bank:addToLine Moses 17
+Bank:addToLine Cain 20
+Bank:serve 
+Bank:serve 
+Bank:bumpTime 
+Bank:bumpTime 
+Bank:addToLine Aaron 3
+Bank:addToLine Aaron 16
+Bank:addToLine Eve -8
+Bank:serve 
+Bank:bumpTime 
+Bank:bumpTime 
+Bank:bumpTime 
+Bank:averageWait 
+Bank:customersOver 19
+Bank:addToLine Tammy 0
+Bank:addToLine Moses 4
+Bank:averageWait 
+Bank:addToLine Moses -8
+Bank:averageWait 
+Bank:serve 
+Bank:addToLine Leon -9
+Bank:serve 
+Bank:addToLine Adam -10
+Bank:addToLine Adam 15
+Bank:addToLine Leon -8
+Bank:serve 
+Bank:customersOver 93
+Bank:addToLine Cain 0
+Bank:averageWait 
+Bank:addToLine Tammy -4
+Bank:serve 
+Bank:customersOver 42
+Bank:addToLine Rachel 22
+Bank:averageWait 
+Bank:customersOver 199
+Bank:addToLine Eve 19
+Bank:addToLine Moses 1
+Bank:serve 
+Bank:customersOver 53
+Bank:serve 
+Bank:addToLine Able -10
+Bank:averageWait 
+Bank:serve 
+Bank:serve 
+Bank:customersOver 146
+Bank:serve 
+Bank:averageWait 
+Bank:serve 
+Bank:customersOver 180
+Bank:serve 
+Bank:bumpTime 
+Bank:customersOver 139
+Bank:bumpTime 
+Bank:addToLine Joshua 15
+Bank:serve 
+Bank:serve 
+Bank:addToLine Adam 25
+Bank:addToLine Lilith 7
+Bank:averageWait 
+Bank:serve 
+Bank:bumpTime 
+Bank:addToLine Aaron 16
+Bank:addToLine Eve 5
+Bank:addToLine Tammy 1
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:addToLine Cain 17
+Bank:bumpTime 
+Bank:serve 
+Bank:serve 
+Bank:bumpTime 
+Bank:serve 
+Bank:serve 
+Bank:addToLine Moses -9
+Bank:bumpTime 
+Bank:addToLine Able -1
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:addToLine Cain 27
+Bank:averageWait 
+Bank:averageWait 
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:bumpTime 
+Bank:serve 
+Bank:bumpTime 
+Bank:addToLine Eve 13
+Bank:serve 
+Bank:addToLine Moses 12
+Bank:averageWait 
+Bank:serve 
+Bank:addToLine Tammy 10
+Bank:serve 
+Bank:addToLine Rachel 24
+Bank:serve 
+Bank:addToLine Joshua 22
+Bank:addToLine Rachel 3
+Bank:addToLine Aaron -9
+Bank:bumpTime 
+Bank:averageWait 
+Bank:serve 
+Bank:bumpTime 
+Bank:bumpTime 
+Bank:serve 
+Bank:bumpTime 
+Bank:addToLine Tammy 6
+Bank:serve 
+Bank:addToLine Cain 10
+Bank:addToLine Tammy 28
+Bank:addToLine Aaron 25
+Bank:bumpTime 
+Bank:customersOver 64
+Bank:serve 
+Bank:addToLine Rachel 28
+Bank:addToLine Cain 23
+Bank:addToLine Tammy -2
+Bank:customersOver 79
+Bank:bumpTime 
+Bank:addToLine Leon -4
+Bank:serve 
+Bank:averageWait 
+Bank:addToLine Adam 28
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:addToLine Aaron -1
+Bank:serve 
+Bank:serve 
+Bank:addToLine Moses 17
+Bank:serve 
+Bank:serve 
+Bank:serve 
+Bank:bumpTime 
+Bank:serve 
+Bank:serve 
+Bank:averageWait 
+Bank:averageWait 
+Bank:addToLine Cain 1
+Bank:customersOver 93
+Bank:serve 
+Bank:addToLine Joshua 18
+Bank:bumpTime 
+Bank:bumpTime 
+Bank:bumpTime 
+Bank:addToLine Moses 3
+Bank:bumpTime 
+Bank:addToLine Adam 8
+Bank:serve 
+Bank:addToLine Lilith 10
+Bank:bumpTime 
+Bank:serve 
+Bank:serve 
+Bank:bumpTime 
+Bank:serve 
+Bank:customersOver 50
+Bank:addToLine Aaron -8
+Bank:serve 
+Bank:serve 
+Bank:customersOver 165
+Bank:serve 
+Bank:customersOver 172
+Bank:customersOver 78
+Bank:serve 
+Bank:bumpTime 
+Bank:addToLine Aaron 6
+Bank:addToLine Able 2 **** Should have served 150 with total wait time of 1329
+Bank:customersOver 17  **** Should be all 11 customers.
+Bank:averageWait  **** Should be 8.86

@@ -1,0 +1,7 @@
+Customer:Constructor John 10
+Customer:getName Name should be John
+Customer:getTransactionValue Value should be 10
+Customer:getWait Wait time should be 0
+Customer:bumpWaitTime Wait time should now be 1
+Customer:bumpWaitTime Wait time should now be 2
+Customer:toString The customer should hold the values John, 10 and 2
